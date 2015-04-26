@@ -9,6 +9,9 @@ The idea is to be able to use this for discussing a design as well as a quick re
 2. Point your browser to your upload location.
 
 ##License
-Copyright 2015, [Stefan Hamminga](https://prjct.net). Project home: https://github.com/StefanHamminga/KiCad_SVG_viewer.
+Copyright 2015, [Stefan Hamminga](https://prjct.net).
+Project home: https://github.com/StefanHamminga/KiCad_SVG_viewer.
 
-This project may be freely adapted and distributed, under the terms of the Creative Commons Attribution-ShareAlike 4.0 International license. Also included is the MIT licensed [Simple-hint](https://github.com/catc/simple-hint) CSS tooltip file, by [Catalin Covic](https://github.com/catc).
+This project may be freely adapted and distributed, under the terms of the Creative Commons Attribution-ShareAlike 4.0 International license.
+
+Also included is the MIT licensed [Simple-hint](https://github.com/catc/simple-hint) CSS tooltip file, by [Catalin Covic](https://github.com/catc).
