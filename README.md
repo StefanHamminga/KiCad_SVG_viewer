@@ -4,6 +4,8 @@ This is a simple proof-of-concept browser based viewer for the SVG files KiCad e
 
 The idea is to be able to use this for discussing a design as well as a quick reference for assembly of a board. It's current state the result of a few hours of tinkering on a rainy Sunday and as such not yet feature complete.
 
+For a live demo, have a look here: https://prjct.net/kicad_viewer/
+
 ##Usage
 1. Copy the repository files in a directory on your favourite web server. The project comes with some example files. To view your own, just modify the `projectName` in `kicad_viewer.js`.
 2. Point your browser to your upload location.
