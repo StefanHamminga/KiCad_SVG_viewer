@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>KiCAD SVG viewer</title>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./simple-hint.css" type='text/css'>
+	<link rel="stylesheet" href="./kicad_viewer.css" type='text/css'>
+
+</head>
+<body>
+	<nav>
+		<span class="hint-left hint-fade" data-hint="Load new design (upload SVG files)"><i id="upload" class="fa fa-upload"></i></span>
+		<span class="hint-left hint-fade" data-hint="High contrast mode"><i id="highContrast" class="fa fa-adjust"></i></span>
+		<span class="hint-left hint-fade" data-hint="Return to initial state"><i id="resetView" class="fa fa-home"></i></span>
+		<span class="hint-left hint-fade" data-hint="Rotate left by 45 degrees"><i id="rotateL" class="fa fa-undo"></i></span>
+		<span class="hint-left hint-fade" data-hint="Rotate right by 45 degrees"><i id="rotateR" class="fa fa-repeat"></i></span>
+		<span class="hint-left hint-fade" data-hint="See other side (rotate Y axis)"><i id="rotateY" class="fa fa-star-half-o"></i></span>
+		<span class="hint-left hint-fade" data-hint="Flip layer stack top<->bottom"><i id="Flip" class="fa fa-random"></i></span>
+		<span class="hint-left hint-fade" data-hint="Manage layer properties"><i id="layers" class="fa fa-align-justify"></i></span>
+	</nav>
+
+	<div id="boardContainer"></div>
+
+	<script type="text/javascript" src="./kicad_viewer.js"></script>
+		
+	</body>
+</html>
